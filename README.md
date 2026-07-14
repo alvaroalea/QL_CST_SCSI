@@ -9,4 +9,8 @@ An evolution of the CST V4 Floppy interface with the incorporation of SCSI Contr
 The SCSI was limited only to a especific HDD model: Rodine RO652 20Mb, an UK Manufactured HDD that was also used on Macintosh SE
 
 Later this interface will be use as a base for the Thor 20 Computer SCSI interface.
+
+![My image](QL_CST_SCSI_F.png) 
+
+![My image](QL_CST_SCSI_B.png) 
  
