@@ -5,12 +5,11 @@
 	(uuid "aecd9f77-969e-41c8-a7ad-8348a70f1d7d")
 	(paper "A2")
 	(title_block
-		(title "CST Q-Disc Interface Version 4")
-		(date "2023-05-20")
+		(title "CST SCSI-Disc Interface")
+		(date "2026-09-22")
 		(rev "00")
 		(company "Repro by Alvaro Alea Fdz.")
-		(comment 1 "To use with ROM Version 1.18")
-		(comment 2 "Disc Interface for Sinclair QL")
+		(comment 1 "Floppy and Hard Disk Interface for Sinclair QL")
 	)
 	(lib_symbols
 		(symbol "74LS266_1"
@@ -28733,6 +28732,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 234.95 317.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f188fb-04cd-47c2-a613-bde7616a41df")
+		(property "Reference" "#PWR015"
+			(at 234.95 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 234.95 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b294e37-613a-4325-9bbc-c2c6d2a228a4")
+		)
+		(instances
+			(project "QL_CST_SCSI"
+				(path "/aecd9f77-969e-41c8-a7ad-8348a70f1d7d"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "8bits:74LS638")
 		(at 368.3 210.82 180)
 		(unit 1)
@@ -36420,7 +36485,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS05")
-		(at 381 306.07 0)
+		(at 242.57 317.5 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36428,7 +36493,7 @@
 		(dnp no)
 		(uuid "e43cf775-84e0-4d3c-a212-1a0e85ebdb29")
 		(property "Reference" "U15"
-			(at 381 297.18 0)
+			(at 242.57 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36436,7 +36501,7 @@
 			)
 		)
 		(property "Value" "74LS05"
-			(at 381 299.72 0)
+			(at 242.57 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36444,7 +36509,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 381 306.07 0)
+			(at 242.57 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36453,7 +36518,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS05"
-			(at 381 306.07 0)
+			(at 242.57 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36462,7 +36527,7 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
-			(at 381 306.07 0)
+			(at 242.57 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
